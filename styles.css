@@ -52,3 +52,19 @@ body {
   text-decoration: none;
 }
 /* end of navbar */
+
+/* slider */
+
+.banner-container {
+  width: 600em;
+  overflow: hidden;
+}
+
+.banners {
+  display: flex;
+}
+.inner {
+  width: 100em;
+}
+
+/* end of slider */
