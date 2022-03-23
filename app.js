@@ -3,6 +3,10 @@ const right = document.querySelector(".right");
 const banners = document.querySelector(".banners");
 const button = document.querySelector(".button");
 
+let counter = 1;
+
 button.addEventListener("click", function () {
-  banners.style.transform = "translate( -100em)";
+  counter++;
+  banners.style.transform = "translate(" + -100 * counter + "em)";
+  console.log(counter);
 });

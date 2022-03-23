@@ -68,3 +68,16 @@ body {
 }
 
 /* end of slider */
+
+.dates {
+  display: flex;
+  list-style: none;
+}
+.date-button {
+  width: 120px;
+  height: 70px;
+  background-color: #1570ff;
+  color: var(--mainWhite);
+  border-radius: 50px;
+  border: none;
+}
