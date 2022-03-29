@@ -68,10 +68,11 @@ body {
 }
 
 /* end of slider */
-
+/* date slider */
 .dates {
   display: flex;
   list-style: none;
+  padding: 0 40px;
 }
 .date-button {
   width: 120px;
@@ -81,3 +82,25 @@ body {
   border-radius: 50px;
   border: none;
 }
+/* end of date slider */
+/* filter */
+.filters {
+  display: flex;
+  list-style: none;
+}
+.filter {
+  height: 35px;
+  padding: 5px 12px;
+  margin: 0 30px;
+  border-radius: 50px;
+  border: 0.5px solid #5b7282;
+  background-color: #fff;
+  color: #5b7282;
+}
+/* end of filter */
+/* single */
+.lists {
+  display: flex;
+}
+
+/* end of single */
