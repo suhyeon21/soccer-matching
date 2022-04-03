@@ -77,8 +77,17 @@ body {
 .date-button {
   width: 120px;
   height: 70px;
-  background-color: #1570ff;
+  color: var(--mainBlack);
+  background-color: #fff;
+  border-radius: 50px;
+  border: none;
+}
+
+.date-button:hover {
+  width: 120px;
+  height: 70px;
   color: var(--mainWhite);
+  background-color: #1570ff;
   border-radius: 50px;
   border: none;
 }
@@ -101,6 +110,11 @@ body {
 /* single */
 .lists {
   display: flex;
+  flex-direction: column;
 }
 
+.matches {
+}
+.match {
+}
 /* end of single */
