@@ -56,15 +56,20 @@ body {
 /* slider */
 
 .banner-container {
-  width: 600em;
+  width: 1000px;
   overflow: hidden;
 }
 
 .banners {
+  width: 1000px;
   display: flex;
 }
 .inner {
-  width: 100em;
+  width: 1000px;
+}
+
+.inner img {
+  width: 1000px;
 }
 
 /* end of slider */
@@ -90,6 +95,7 @@ body {
   background-color: #1570ff;
   border-radius: 50px;
   border: none;
+  cursor: pointer;
 }
 /* end of date slider */
 /* filter */
@@ -114,6 +120,7 @@ body {
 }
 
 .matches {
+  display: flex;
 }
 .match {
 }

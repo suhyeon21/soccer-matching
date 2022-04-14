@@ -16,10 +16,10 @@ function displayItems(matches) {
 function createHTMLString(match) {
   return `
     <li class="matches">
-        <span class="match time">${match.time}</span>
-        <span class="match title">${match.title}</span> 
+        <p class="match time">${match.time}</p>
+        <h3 class="match title">${match.title}</h3> 
         <span class="match option">${match.option}</span> 
-        <span class="match status">${match.status}</span>
+        <p class="match status">${match.status}</p>
     </li>
     `;
 }
@@ -33,7 +33,7 @@ let counter = 1;
 
 button.addEventListener("click", function () {
   counter++;
-  banners.style.transform = "translate(" + -100 * counter + "em)";
+  banners.style.transform = "translate(" + -1000 * counter + "px)";
   console.log(counter);
 });
 
