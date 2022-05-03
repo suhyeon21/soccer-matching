@@ -54,21 +54,23 @@ body {
 /* end of navbar */
 
 /* slider */
-.carousel-container {
-  width: 940px;
+/* .carousel-container {
   margin: 30px auto;
   border: 0px solid #000;
-  overflow: hidden;
   position: relative;
 }
 .carousel-slide {
   display: flex;
-  width: 100%;
+  width: 933px;
   height: 315px;
+  overflow: hidden;
 }
+
 .carousel-slide img {
   width: 933px;
+  border-radius: 20px;
 }
+
 #prevBtn {
   position: absolute;
   top: 50%;
@@ -88,8 +90,30 @@ body {
   height: 36px;
 
   text-indent: -9999px;
+} */
+
+.visual {
+  position: relative;
+  margin: 30px 120px;
 }
 
+.visual button {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.visual button.slick-prev {
+  left: 0;
+}
+
+.visual button.slick-next {
+  right: 0;
+}
+.slick-list {
+  border-radius: 20px;
+}
 /* end of slider */
 /* date slider */
 .dates {
