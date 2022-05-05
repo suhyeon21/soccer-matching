@@ -102,14 +102,33 @@ body {
   z-index: 10;
   top: 50%;
   transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: rgba(0, 0, 0, 0.5);
 }
-
+.visual button:before {
+  font-family: "xeicon";
+  color: #fff;
+  font-size: 20px;
+}
 .visual button.slick-prev {
   left: 0;
+  font-size: 0;
+  color: transparent;
 }
-
+.visual button.slick-prev:before {
+  content: "\f053";
+  font-family: "xeicon";
+}
 .visual button.slick-next {
   right: 0;
+  font-size: 0;
+  color: transparent;
+}
+.visual button.slick-next:before {
+  content: "\f054";
+  font-family: "xeicon";
 }
 .slick-list {
   border-radius: 20px;
